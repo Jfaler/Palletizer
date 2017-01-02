@@ -2,7 +2,7 @@
 Justin Faler 
 1/1/2017 
 
-Version 1.0.0.0
+Version 1.0.0.3
 */
 #include <iostream>
 #include <string>
@@ -11,7 +11,7 @@ using namespace std;
 
 int main()
 {
-	int pallet = 25;
+	int pallet = 1;
 	int choice = 0;
 	char y = 'y'; 
 	char n = 'n';
