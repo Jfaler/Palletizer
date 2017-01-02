@@ -1,8 +1,7 @@
 /*
 Justin Faler 
 1/1/2017 
-
-Version 1.0.0.0
+Version 1.0.0.1
 */
 #include <iostream>
 #include <string>
