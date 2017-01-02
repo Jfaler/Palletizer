@@ -1,5 +1,6 @@
 # Palletizer
 Open source palletizing tool to increase productivity for stacking totes or boxes using a rf gun. 
+![palletizer](https://cloud.githubusercontent.com/assets/8336385/21592512/e37679d8-d0c2-11e6-9a07-1692f0156ebe.JPG)
 
 ## Version
 Version 1.0.0.0
