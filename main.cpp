@@ -1,8 +1,12 @@
 /*
 Justin Faler 
 1/1/2017 
+<<<<<<< HEAD
 
 Version 1.0.0.3
+=======
+Version 1.0.0.1
+>>>>>>> origin/master
 */
 #include <iostream>
 #include <string>
