@@ -5,35 +5,67 @@ Justin Faler
 Version 1.0.0.0
 */
 #include <iostream>
+#include <string>
 
 using namespace std; 
 
 int main()
 {
-	int pallet = 25; 
+	int pallet = 25;
+	int choice = 0;
+	char y = 'y'; 
+	char n = 'n';
 
-	cout << "Ready to palletize?" << endl; 
-	
+	std::cout << R"(
+        ########################################
+        #           +--------------+           #
+        #          /|             /|           #
+        #         / |            / |           #
+        #        *--+-----------*  |           #
+        #        |  |           |  |           #
+        #        |  |           |  |           #
+        #        |  |           |  |           #
+        #        |  +-----------+--+           #
+        #        | /            | /            #
+        #        |/             |/             #
+        #        *--------------*              #
+        #                                      #
+        ########################################        
+        )" << endl;
+
+	cout << "Ready to palletize? (y/n)" << endl;
+
+
 	// Palletizing Menu
 
-	switch (1) {
-	    case 1: cout << "1" << endl; 
-		case 2: cout << "2" << endl;
-		case 3: cout << "3" << endl;
-		case 4: cout << "4" << endl;
-			break;
-		case 5: cout << "5 help" << endl;
-	}
+	switch (choice) {
 
+	case 1: std::cout << "1 " << endl;
+		break;
+	case 2: std::cout << "2" << endl;
+		break;
+	case 3: std::cout << "3" << endl;
+		break;
+	case 4: std::cout << "4" << endl;
+		break;
+	case 5: std::cout << "5 help" << endl;
+	}
+	cin >> choice; 
+
+	return 0;
+}
+
+int Palletizing()
+{
 	for (int i = 0; i < 1; i++)
 	{
 		if (i = 25)
 		{
-			cout << "Pallet is full" << endl;  
+			std::cout << "Pallet is full" << endl;  
 		}
 		else
 		{
-			cout << "Pallet is missing totes" << endl;
+			std::cout << "Pallet is missing totes" << endl;
 		}
 	}
 
