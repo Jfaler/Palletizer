@@ -2,7 +2,7 @@
 Justin Faler 
 1/1/2017 
 
-Version 1.0.0.4
+Version 1.0.0.5
 */
 #include <iostream>
 #include <string>
