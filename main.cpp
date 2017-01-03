@@ -1,23 +1,22 @@
 /*
 Justin Faler 
 1/1/2017 
-<<<<<<< HEAD
 
-Version 1.0.0.3
-=======
-Version 1.0.0.1
->>>>>>> origin/master
+Version 1.0.0.4
 */
 #include <iostream>
 #include <string>
+
+void Palletizing(int count); 
+int verify();
 
 using namespace std; 
 
 int main()
 {
 	int pallet = 1;
-	int choice = 0;
-	char y = 'y'; 
+	int choice = 'y';
+	char y = 1; 
 	char n = 'n';
 
 	std::cout << R"(
@@ -37,14 +36,20 @@ int main()
         ########################################        
         )" << endl;
 
-	cout << "Ready to palletize? (y/n)" << endl;
+	std::cout << "Ready to palletize? (y/n)" << endl;
+	cin >> y;
+
+	std::cout << "Press 1 to login " << endl;
+	std::cout << "Press 2 to verify " << endl;
+	std::cout << "press 3 for help" << endl;
+	cin >> choice;
 
 
 	// Palletizing Menu
 
 	switch (choice) {
 
-	case 1: std::cout << "1 " << endl;
+	case 1: std::cout << "Please scan badge" << endl;
 		break;
 	case 2: std::cout << "2" << endl;
 		break;
@@ -59,7 +64,7 @@ int main()
 	return 0;
 }
 
-int Palletizing()
+void Palletizing(int count)
 {
 	for (int i = 0; i < 1; i++)
 	{
@@ -73,5 +78,9 @@ int Palletizing()
 		}
 	}
 
-	return 0; 
+}
+int verify()
+{
+
+	return 0;
 }
