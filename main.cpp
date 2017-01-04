@@ -2,7 +2,11 @@
 Justin Faler 
 1/1/2017 
 
+<<<<<<< HEAD
 Version 1.0.0.6
+=======
+Version 1.0.0.5
+>>>>>>> origin/master
 */
 #include <iostream>
 #include <string>
