@@ -2,10 +2,11 @@
 Justin Faler 
 1/1/2017 
 
-Version 1.0.0.6
+Version 1.0.0.7
 */
 #include <iostream>
 #include <string>
+#include <iomanip>
 #include "Header.h"
 
 void Palletizing(int count); 
@@ -82,7 +83,25 @@ void Palletizing(int count)
 	}
 
 }
-int verify()
+int weight(int lbs, int ounces)
+{
+	int weight = 0;
+
+	for (int i = 0; i < 1; i++)
+	{
+		if (i = 25)
+		{
+			std::cout << "Exceeded Maximum weight" << std::endl; 
+		}
+		else
+		{
+			std::cout << "Reaching weight limit" << std::endl; 
+		}
+	}
+	return weight;
+
+}
+int verify(int count, int lbs, int ounces)
 {
 	int count = 0; 
 
