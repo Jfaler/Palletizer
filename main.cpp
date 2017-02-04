@@ -2,15 +2,16 @@
 Justin Faler 
 1/1/2017 
 
-Version 1.0.0.7
+Version 1.0.0.8
 */
 #include <iostream>
 #include <string>
 #include <iomanip>
 #include "Header.h"
 
-void Palletizing(int count); 
-int verify();
+void palletizing(int count); 
+int verify(int count, int lbs, int ounces);
+int weight(int lbs, int ounces)
 
 using namespace std; 
 
@@ -68,7 +69,7 @@ int main()
 	return 0;
 }
 
-void Palletizing(int count)
+void palletizing(int count)
 {
 	for (int i = 0; i < 1; i++)
 	{
