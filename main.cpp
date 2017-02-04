@@ -2,7 +2,7 @@
 Justin Faler 
 1/1/2017 
 
-Version 1.0.0.8
+Version 1.0.0.9
 */
 #include <iostream>
 #include <string>
@@ -69,8 +69,8 @@ int main()
 	return 0;
 }
 
-void palletizing(int count)
-{
+void palletizing(int count) {
+	
 	for (int i = 0; i < 1; i++)
 	{
 		if (i = 25)
@@ -84,26 +84,25 @@ void palletizing(int count)
 	}
 
 }
-int weight(int lbs, int ounces)
-{
+int weight(int lbs, int ounces) {
+	
 	int weight = 0;
 
-	for (int i = 0; i < 1; i++)
-	{
-		if (i = 25)
-		{
+	for (int i = 0; i < 1; i++) {
+		
+		if (i = 25) {
 			std::cout << "Exceeded Maximum weight" << std::endl; 
 		}
-		else
-		{
+		
+		else	{
 			std::cout << "Reaching weight limit" << std::endl; 
 		}
 	}
 	return weight;
 
 }
-int verify(int count, int lbs, int ounces)
-{
+int verify(int count, int lbs, int ounces) {
+	
 	int count = 0; 
 
 
