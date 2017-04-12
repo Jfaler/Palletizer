@@ -2,7 +2,7 @@
 Justin Faler 
 1/1/2017 
 
-Version 1.0.0.9
+Version 1.0.0.8
 */
 #include <iostream>
 #include <string>
@@ -67,6 +67,23 @@ int main()
 
 
 	return 0;
+}
+
+int login(int badgeNum) {
+	
+	For (int i = 0; i < 1; i++)
+	{
+		if (i = 1)
+		{
+			std::cout << "Welcome Back" << endl;
+		}
+		else 
+		{
+			std::cout << "Wrong password" << endl;
+		}
+	}
+	
+	return badgeNum; 
 }
 
 void palletizing(int count) {
