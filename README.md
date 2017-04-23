@@ -3,17 +3,39 @@ Open source palletizing tool to increase productivity for stacking totes or boxe
 
 ![palletizer](https://cloud.githubusercontent.com/assets/8336385/21592512/e37679d8-d0c2-11e6-9a07-1692f0156ebe.JPG)
 
-## Version
-Version 1.0.0.0
+## Version 
+1.0.0.0
+
+## Installation
+
+TODO: Describe the installation process
 
 ## Usage
-```$ git clone https://github.com/Jfaler/Palletizer.git
-...```
 
+TODO: Write usage instructions 
 
+## TODO 
 
+Functional & non-functional requirements
 
+1. Login 
+2. Export to CSV 
 
+## Contributing
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
+
+## History
+
+TODO: Write history
+
+## Credits
+
+TODO: Write credits
 
 ## License
 
